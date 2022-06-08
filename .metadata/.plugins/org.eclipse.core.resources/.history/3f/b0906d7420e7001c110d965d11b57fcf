@@ -17,15 +17,16 @@ public class ejericio344 {
 		System.out.println(a%2==0);
 		
 		//jercicio pagina 348//
-		int num1=2, num2=1, num3=3;
-		if (num1>num2 && num1>num3) {
-			System.out.println("La variable num1 es el mayor");
+		int num=1, num2=2, num3=3;
+		
+		if (num>num2 && num2 >= num3) {
+		System.out.println("la variable 1 es la mayor");
 		}
-		else if (num2>num3) {
-			System.out.println("La variable num2 es el mayor");
+		else if(num2>num3);{
+		System.out.println("la variable 2 es la mayor");
 		}
 		else {
-			System.out.println("La variable num3 es el mayor");
+		System.out.println("la variable 3 es la mayor");
 		}
 	
 	}
