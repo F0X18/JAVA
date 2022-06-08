@@ -19,15 +19,11 @@ public class ejericio344 {
 		//jercicio pagina 348//
 		int num=1, num2=2, num3=3;
 		
-		if (num>num2 && num2 >= num3) {
-		System.out.println("la variable 1 es la mayor");
-		}
-		else if(num2>num3);{
-		System.out.println("la variable 2 es la mayor");
-		}
-		else{
-		System.out.println("la variable 3 es la mayor");
-		}
+		if {((num <num2) && (num2 >= num3))};{
+		else((num<num3) && (num3>num))};
+		
+		System.out.println();
+		
 		
 	}
 
