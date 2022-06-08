@@ -25,10 +25,10 @@ public class ejericio344 {
 		else if(num2>num3);{
 		System.out.println("la variable 2 es la mayor");
 		}
-		else {
+		else{
 		System.out.println("la variable 3 es la mayor");
 		}
-	
+		
 	}
 
 }
