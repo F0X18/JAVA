@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class ejercicioSumas357 {
+
+	public static void main(String[] args) {
+		int i=3;
+		for(int resultado = 6; i>0; i++) {
+			if() {
+			System.out.println();
+		}
+	}
+
+}
+}
