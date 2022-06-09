@@ -7,8 +7,8 @@ public class ejerciciospag357 {
         System.out.print("Introduce un número: ");                                                         
         n = sc.nextInt();
         System.out.println("Tabla del " + n);
-        for(int i = 0; i<=10; i++){
-             System.out.println(n + " X " + i + " = " + n*i); 
+        for(int i = 1; i<=2; i++){
+             System.out.println(n + " * " + i + " = " + n*i); 
 	}
 
 }
