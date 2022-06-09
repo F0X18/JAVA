@@ -8,13 +8,9 @@ public class ejercicioTablasDeMultiplicar {
         n = sc.nextInt();
         System.out.println("Tabla del " + n);
         for(int i = 1; i<=10; i++){
-             System.out.println(n + " X " + i + " = " + n*i);
-             for(int j=0;j<=10;j++) {
-            	 System.out.println(j + " X " + i + " = " + j*i);{
-             }
+             System.out.println(n + " X " + i + " = " + n*i); 
 
 	}
 
-}
 }
 }
