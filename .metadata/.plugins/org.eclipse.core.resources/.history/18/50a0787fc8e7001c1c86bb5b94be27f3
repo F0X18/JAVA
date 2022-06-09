@@ -1,0 +1,25 @@
+
+public class ejerciciorproyecto1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		if (1==1);
+		System.out.println(gestores);
+		else if(2==2);
+		System.out.println(clientes);
+		else if(3==3);
+		System.out.println(transferencias);
+		else if (4==4);
+		System.out.println(mensajes);
+		else if(5==5);
+		System.out.println(prestamos);
+		else if(6==6);
+		System.out.println(salir);
+		
+		else {
+			
+		}
+	}
+
+}

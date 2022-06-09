@@ -1,0 +1,16 @@
+
+public class ejerciciorproyecto1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(gestores)
+		System.out.println(clientes)
+		System.out.println(transferencias)
+		System.out.println(mensajes)
+		System.out.println(prestamos)
+		System.out.println(salir)
+		
+	}
+
+}
