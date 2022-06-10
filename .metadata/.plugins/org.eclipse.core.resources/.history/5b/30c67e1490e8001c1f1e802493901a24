@@ -2,7 +2,7 @@
 public class numerosPrimos {
 
 	public static void main(String[] args) {
-		int numeroPrimos=98;
+		int numeroPrimos=72;
 		boolean primoSiNo=true;
 		for(int i=numeroPrimos-1; i>1; i--){
 		if(numeroPrimos%i ==0) {

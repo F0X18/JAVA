@@ -1,0 +1,15 @@
+
+public class numerosPrimos {
+
+	public static void main(String[] args) {
+		int numeroPrimos=3;
+		boolean primoSiNo=true;
+		if((numeroPrimos>1) && (numeroPrimos/numeroPrimos==1)&&(numeroPrimos/1==numeroPrimos)&&(numeroPrimos));
+		
+		System.out.printf("el %d es primo").println();
+		}else {
+		System.out.printf("el %d no es primo").println();
+		}
+	}
+
+}
