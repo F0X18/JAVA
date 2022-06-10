@@ -1,0 +1,60 @@
+
+public class Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //System.out.println("Hola mundo, nuevo lenguage");
+        //System.out.println("2*3");
+        //System.out.println(2*3);
+        /*
+        //Tipo de variable: int (número sin parte decimal)
+        //Nombre de la variable: a
+        //Valor de la variable: 10
+        */
+        //int a = 10, b=2,c=1;
+        // el valor de la variable puede mostrarse mediante System.out.println
+        //System.out.println(a+b+c);
+        //c=4;
+        //System.out.printf("%d+%d+%d=%d",a+b+c).println();
+        
+
+//1-byte
+//2-long
+//3-char
+//4-boolean
+//5-float
+//6-long
+//	byte numeroByte = 5;
+	//short numeroShort = 128;
+	//int numeroInt = 40000;
+	//long numeroLong = 2222222222L;
+//	float numeroFloat = 2.3f;
+//	double numeroDouble = 2.5;
+//	boolean variableBooleana = false;
+	
+	//System.out.println(numeroByte + numeroShort);
+	// 2222262222
+	//System.out.println(numeroInt + numeroLong);
+	// 7.3
+	//System.out.println(numeroByte + numeroFloat);
+	// 40002.3
+	//System.out.println(numeroInt + numeroFloat);
+	// 4.799999952316284
+	//System.out.println(numeroFloat + numeroDouble);
+		// trata de ejecutar el código que se encuentra entre las llaves
+		// trata de ejecutar el código que se encuentra entre las llaves
+		public static int suma(int x, int y,int z) {
+			// el método retorna el resultado de la operación x + y
+			return x + y;
+			}
+		int resta(int x, int y) {
+			// el método retorna el resultado de la operación x - y
+			return x - y;
+			}
+			{
+	Main.suma(2,4,5);
+			
+	
+	
+
+
+	

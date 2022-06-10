@@ -1,0 +1,22 @@
+
+public class main2 {
+
+	public static void main(String[] args) {
+		
+		
+		public class estudiante{
+			
+			
+			//atributos
+			int id;
+			int edad;
+			int telefono;
+			float numeroDeNotas;
+			float notaMedia;
+			void mostrarInfo();
+			void agregarNuevaNota();
+			
+		}
+	}
+
+}

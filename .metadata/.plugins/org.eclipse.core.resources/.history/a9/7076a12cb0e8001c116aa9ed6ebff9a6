@@ -1,0 +1,40 @@
+
+public class estudiante {
+
+}
+	public class Estudiante()
+		
+	
+	public Estudiante() {
+		this.id=1;
+		this.edad=18;
+		this.telefono=999999999;
+		this.numeroDeNotas=10;
+		this.notaMedia=10;
+	}
+	public Estudiante(int id){
+		this.id=id;
+		this.edad=edad;
+		this.telefono=telefono;
+		this.numeroDeNotas=numeroDeNotas;
+		this.notaMedia=notaMedia;
+	}
+	public Estudiante(float notaMedia, int numeroDeNotas) {
+	}
+	//atributos
+	int id;
+	byte edad;
+	int telefono;
+	int numeroDeNotas;
+	float notaMedia;
+	
+	//metodo
+	void mostrarInfo();
+	void agregarNuevaNota();
+	
+	
+	public class coche{
+		
+	}
+}
+

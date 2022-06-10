@@ -1,0 +1,21 @@
+
+public class main2 {
+	
+		public class estudiante{
+			
+			
+			//atributos
+			int id;
+			int edad;
+			int telefono;
+			int numeroDeNotas;
+			float notaMedia;
+			
+			//metodo
+			void mostrarInfo();
+			void agregarNuevaNota();
+			
+		}
+	}
+
+

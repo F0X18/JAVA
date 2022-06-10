@@ -1,0 +1,30 @@
+
+public class estudiante {
+
+}
+	public class Estudiante()
+		
+	
+	public Estudiante() {
+	}
+	public Estudiante(int id){
+	}
+	public Estudiante(float notaMedia, int numeroDeNotas) {
+	}
+	//atributos
+	int id;
+	byte edad;
+	int telefono;
+	int numeroDeNotas;
+	float notaMedia;
+	
+	//metodo
+	void mostrarInfo();
+	void agregarNuevaNota();
+	
+	
+	public class coche{
+		
+	}
+}
+
