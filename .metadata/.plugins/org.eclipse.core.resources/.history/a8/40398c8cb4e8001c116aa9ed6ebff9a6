@@ -14,7 +14,4 @@ public class MainEstudiante {
 	public void setid(int 20) {
 		this.id=id;
 }
-	public int getid() {
-		return id;
-	}
 }
