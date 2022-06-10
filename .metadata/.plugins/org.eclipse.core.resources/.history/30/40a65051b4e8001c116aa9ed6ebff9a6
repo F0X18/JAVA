@@ -8,10 +8,5 @@ public class MainEstudiante {
 		Estudiante fox= new Estudiante(18,20,330330330,4,5,1.0f);
 		
 	}
-	public int getid() {
-		return id;
-}
-	public void setid(int 20) {
-		this.id=id;
-}
+
 }
