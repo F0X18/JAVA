@@ -1,0 +1,19 @@
+
+public class MainCoche {
+
+	public static void main(String[] args) {
+		coche audi= new coche();
+		coche honda= new coche();
+		coche opel= new coche();
+		coche mercedes= new coche();
+		float kw=coche.convertirCvKw(350.0f);
+		float cv=coche.convertirKwCv(kw);
+		
+		
+		
+		
+		
+
+}
+}
+

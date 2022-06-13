@@ -43,45 +43,63 @@ public class estudiante {
 	private int numeroDeNotas;
 	private int sumaDeNotas;
 	private double notaMedia;
+	//public static float crearEstudiante = Estudiante();
 	//M�todos p�blicos
 	public void mostrarInfo() {};
-	public void agragarNuevaNota() {};
 	public int getId() {
 		return id;
 	};
-	public void SetId(int id) {
+	public void setId(int id) {
 		this.id = id;
 	};
-	public void Setedat(int edat) {
+	public int getEdat() {
+		return edat;
+	};
+	public void setEdat(int edat) {
 		this.edat = edat;
 	};
-	public void Settelefono(int telefono) {
+	public int getTelefono() {
+		return telefono;
+	};
+	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	};
-	public void SetnumeroDeNotas(int numeroDeNotas) {
+	public int getNumeroDeNotas() {
+		return numeroDeNotas;
+	};
+	public void setNumeroDeNotas(int numeroDeNotas) {
 		this.numeroDeNotas = numeroDeNotas;
 	};
-	public void SetsumaDeNotas(int sumaDeNotas) {
+	public int getSumaDeNotas() {
+		return sumaDeNotas;
+	};
+	public void setSumaDeNotas(int sumaDeNotas) {
 		this.sumaDeNotas = sumaDeNotas;
 	};
-	public void SetnotaMedia(int notaMedia) {
-		this.notaMedia = notaMedia;
-	}
-	public int getedat() {
-		// TODO Auto-generated method stub
-		return this.edat = edat;
-	}
-	public int gettelefono() {
-		// TODO Auto-generated method stub
-		return this.telefono = telefono;
-	}
-	public int getnumeroDeNotas() {
-		// TODO Auto-generated method stub
-		return this.numeroDeNotas = numeroDeNotas;
-	}
-	public double getnotaMedia() {
-		// TODO Auto-generated method stub
-		return this.notaMedia = notaMedia;
+	public double getNotaMedia() {
+		return notaMedia;
 	};
+	public void setNotaMedia(double notaMedia) {
+		this.notaMedia = notaMedia;
+	};
+	public void agregarNuevaNota() {
+		numeroDeNotas++;
+	}
+	//Ejercicio p�g 380
+	public void agregarNuevaNota(int nota) {
+		agregarNuevaNota();
+		sumaDeNotas+=nota;
+		notaMedia=sumaDeNotas/numeroDeNotas;
+	}
+	public void agregarNuevaNota(int nota, boolean notaTrue) {
+		if (notaTrue) {
+			numeroDeNotas=0;
+			sumaDeNotas=0;
+			notaMedia=0;
+		} else {
+			agregarNuevaNota();
+			agregarNuevaNota(nota);
+		}
+		
+	}
 }
-
