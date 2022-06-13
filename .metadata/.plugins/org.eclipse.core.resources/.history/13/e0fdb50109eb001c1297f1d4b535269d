@@ -2,22 +2,23 @@
 public class coche extends Vehiculo {
 	
 	public coche() {
-		super(10,4,0);
+		this.velocidad = 5.0f;
 		this.caballos = 0.0f;
-		
+		this.asientos = 4;
+		this.orientacionRuedas = 0;
 	}
-	/*public coche(int asientos) {
+	public coche(int asientos) {
 		this.velocidad = 5.0f;
 		this.caballos = 0.0f;
 		this.asientos = asientos;
 		this.orientacionRuedas = 0;
-	}*/
-	/*public coche(float velocidad, float caballos) {
+	}
+	public coche(float velocidad, float caballos) {
 		this.velocidad = velocidad;
 		this.caballos = caballos;
 		this.asientos = 5;
 		this.orientacionRuedas = 0;
-	}*/
+	}
 	/*public coche(float velocidad, float caballos, int asientos, int orientacionRuedas) {
 		this.velocidad = velocidad;
 		this.caballos = caballos;
