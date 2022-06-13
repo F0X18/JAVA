@@ -1,44 +1,87 @@
 
 public class estudiante {
-
-}
-	public class Estudiante()
-		
-	
-	public Estudiante() {
+	//Constructor por defecto
+	public estudiante() {
 		this.id=1;
-		this.edad=18;
-		this.telefono=999999999;
-		this.numeroDeNotas=10;
-		this.notaMedia=10;
+		this.edat=18;
+		this.telefono=699999999;
+		this.numeroDeNotas=1;
+		this.sumaDeNotas=10;
+		this.notaMedia=5;
 	}
-	public Estudiante(int id){
+	//Constructor con un par�metro
+	public estudiante(int id) {
 		this.id=id;
-		this.edad=20;
-		this.telefono=666666666;
-		this.numeroDeNotas=8;
-		this.notaMedia=6.5f;
+		this.edat=23;
+		this.telefono=699999996;
+		this.numeroDeNotas=3;
+		this.sumaDeNotas=7;
+		this.notaMedia=7.5;
 	}
-	public Estudiante(float notaMedia, int numeroDeNotas) {
-		this.id=2;
-		this.edad=21;
-		this.telefono=333333333;
+	//Constructor con dos par�metros
+	public estudiante(int id, int edat) {
+		this.id=id;
+		this.edat=edat;
+		this.telefono=699999996;
+		this.numeroDeNotas=3;
+		this.sumaDeNotas=7;
+		this.notaMedia=7.5;
+	}
+	//Constructor con todos los par�metros
+	public estudiante(int id,int edat,int telefono,int numeroDeNotas,int sumaDeNotas,double notaMedia) {
+		this.id=id;
+		this.edat=edat;
+		this.telefono=telefono;
 		this.numeroDeNotas=numeroDeNotas;
+		this.sumaDeNotas=sumaDeNotas;
 		this.notaMedia=notaMedia;
-		
 	}
-	//atributos
+	//Atributos privados es lo normal
 	private int id;
-	private byte edad;
+	private int edat;
 	private int telefono;
 	private int numeroDeNotas;
-	private float notaMedia;
-	
-	//metodo
+	private int sumaDeNotas;
+	private double notaMedia;
+	//M�todos p�blicos
 	public void mostrarInfo() {};
-	public void agregarNuevaNota() {};
-	
-	
-
+	public void agragarNuevaNota() {};
+	public int getId() {
+		return id;
+	};
+	public void SetId(int id) {
+		this.id = id;
+	};
+	public void Setedat(int edat) {
+		this.edat = edat;
+	};
+	public void Settelefono(int telefono) {
+		this.telefono = telefono;
+	};
+	public void SetnumeroDeNotas(int numeroDeNotas) {
+		this.numeroDeNotas = numeroDeNotas;
+	};
+	public void SetsumaDeNotas(int sumaDeNotas) {
+		this.sumaDeNotas = sumaDeNotas;
+	};
+	public void SetnotaMedia(int notaMedia) {
+		this.notaMedia = notaMedia;
+	}
+	public int getedat() {
+		// TODO Auto-generated method stub
+		return this.edat = edat;
+	}
+	public int gettelefono() {
+		// TODO Auto-generated method stub
+		return this.telefono = telefono;
+	}
+	public int getnumeroDeNotas() {
+		// TODO Auto-generated method stub
+		return this.numeroDeNotas = numeroDeNotas;
+	}
+	public double getnotaMedia() {
+		// TODO Auto-generated method stub
+		return this.notaMedia = notaMedia;
+	};
 }
 
