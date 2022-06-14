@@ -1,9 +1,8 @@
 
-public class estudiante {
+public class estudiante extends Persona {
 	//Constructor por defecto
 	public estudiante() {
 		this.id=1;
-		this.edat=18;
 		this.telefono=699999999;
 		this.numeroDeNotas=1;
 		this.sumaDeNotas=10;
@@ -12,7 +11,6 @@ public class estudiante {
 	//Constructor con un par�metro
 	public estudiante(int id) {
 		this.id=id;
-		this.edat=23;
 		this.telefono=699999996;
 		this.numeroDeNotas=3;
 		this.sumaDeNotas=7;
@@ -21,7 +19,6 @@ public class estudiante {
 	//Constructor con dos par�metros
 	public estudiante(int id, int edat) {
 		this.id=id;
-		this.edat=edat;
 		this.telefono=699999996;
 		this.numeroDeNotas=3;
 		this.sumaDeNotas=7;
@@ -30,40 +27,23 @@ public class estudiante {
 	//Constructor con todos los par�metros
 	public estudiante(int id,int edat,int telefono,int numeroDeNotas,int sumaDeNotas,double notaMedia) {
 		this.id=id;
-		this.edat=edat;
 		this.telefono=telefono;
 		this.numeroDeNotas=numeroDeNotas;
 		this.sumaDeNotas=sumaDeNotas;
 		this.notaMedia=notaMedia;
 	}
 	//Atributos privados es lo normal
-	private int id;
-	private int edat;
-	private int telefono;
 	private int numeroDeNotas;
 	private int sumaDeNotas;
 	private double notaMedia;
 	//public static float crearEstudiante = Estudiante();
-	//M�todos p�blicos
-	public void mostrarInfo() {};
-	public int getId() {
-		return id;
+	//M�todos p�blicos		
+	public void mostrarInfo() {
+		getNumeroDeNotas();
+		getSumaDeNotas();
+		getNotaMedia();	
 	};
-	public void setId(int id) {
-		this.id = id;
-	};
-	public int getEdat() {
-		return edat;
-	};
-	public void setEdat(int edat) {
-		this.edat = edat;
-	};
-	public int getTelefono() {
-		return telefono;
-	};
-	public void setTelefono(int telefono) {
-		this.telefono = telefono;
-	};
+
 	public int getNumeroDeNotas() {
 		return numeroDeNotas;
 	};
@@ -101,5 +81,10 @@ public class estudiante {
 			agregarNuevaNota(nota);
 		}
 		
+	}
+	@Override
+	public void mostrarID() {
+		// TODO Auto-generated method stub
+		System.out.println("La id del estudiante es: "+ this.id + " - Su nota media es: " + this.notaMedia );
 	}
 }

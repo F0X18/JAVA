@@ -1,0 +1,30 @@
+
+public class Profesor extends Persona {
+
+	private int numeroDeEdadesEstudiantes;
+	private int sumaDeEdadesEstudiantes;
+	private float estudiantesEdadMedia;
+	
+	public Profesor() {
+		this.numeroDeEdadesEstudiantes;
+		this.sumaDeEdadesEstudiantes;
+		this.estudiantesEdadMedia;
+	}
+	
+	public void agregarEdadEstudiante() {}
+	public void mostrarInfo(){
+		getnumeroDeEdadesEstudiantes();
+		getsumaDeEdadesEstudiantes();
+		getestudiantesEdadMedia();
+	}
+	public int getnumeroDeEdadesEstudiantes() {
+		return numeroDeEdadesEstudiantes;
+	};
+	public int getsumaDeEdadesEstudiantes() {
+		return sumaDeEdadesEstudiantes;
+	};
+	public float getestudiantesEdadMedia() {
+		return estudiantesEdadMedia;
+	};
+}
+

@@ -1,0 +1,16 @@
+
+public class Profesor extends Persona {
+
+	private int numeroDeEdadesEstudiantes;
+	private int sumaDeEdadesEstudiantes;
+	private float estudiantesEdadMedia;
+	
+	public Profesor() {
+		this.numeroDeEdadesEstudiantes;
+		this.sumaDeEdadesEstudiantes;
+		this.estudiantesEdadMedia;
+	}
+	
+	public void agregarEdadEstudiante() {}
+	public void mostrarInfo(){}
+}

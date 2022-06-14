@@ -1,0 +1,12 @@
+
+public class Avion extends Vehiculo {
+	private boolean trenAterrizaje;
+	
+	public Avion() {
+		super(0.0f,)
+	}
+	
+	public void volar() {}
+	public void aterrizaje() {}
+
+}
