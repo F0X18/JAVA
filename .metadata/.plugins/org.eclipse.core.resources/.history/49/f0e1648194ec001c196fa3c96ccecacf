@@ -31,34 +31,13 @@ public class MainString {
 		// -1
 		System.out.println(texto.indexOf('n'));
 		// 5
-		System.out.println(texto.indexOf("es"));
+		System.out.println(texto.indexOf("ex"));
 		// -1
 		System.out.println(texto.indexOf("a"));
 		// 15
 		System.out.println(texto.indexOf('o', 6));
 		// -1
-		System.out.println(texto.indexOf("ex", 6));
-		// 15
-		System.out.println(texto.lastIndexOf('o'));
-		// -1
-		System.out.println(texto.lastIndexOf('z'));
-		// 5
-		System.out.println(texto.lastIndexOf("es"));
-		// -1
-		System.out.println(texto.lastIndexOf("a"));
-		// true
-		System.out.println(texto.startsWith("esto"));
-		// false
-		System.out.println(texto.startsWith("a"));
-		// convierte de booleano a String
-		String str1 = String.valueOf(true);
-		System.out.println(str1);
-		// convierte de int a String
-		String str2 = String.valueOf(1);
-		System.out.println(str2);
-		// convierte de char a String
-		String str3 = String.valueOf('a');
-		System.out.println(str3);
+		System.out.println(texto.indexOf("es", 6));
 	}
 
 }

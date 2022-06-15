@@ -50,15 +50,6 @@ public class MainString {
 		System.out.println(texto.startsWith("esto"));
 		// false
 		System.out.println(texto.startsWith("a"));
-		// convierte de booleano a String
-		String str1 = String.valueOf(true);
-		System.out.println(str1);
-		// convierte de int a String
-		String str2 = String.valueOf(1);
-		System.out.println(str2);
-		// convierte de char a String
-		String str3 = String.valueOf('a');
-		System.out.println(str3);
 	}
 
 }
