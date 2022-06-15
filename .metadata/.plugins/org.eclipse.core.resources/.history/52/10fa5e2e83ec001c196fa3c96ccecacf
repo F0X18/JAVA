@@ -1,0 +1,12 @@
+package com.string.info;
+
+public class MainString {
+
+	public static void main(String[] args) {
+		String nombre1= " F u l l s t a c k";
+		System.out.println(nombre1);
+		String nombre2="A\n d\n r\n i\n a\n n\n";
+		System.out.println(nombre2);
+	}
+
+}
