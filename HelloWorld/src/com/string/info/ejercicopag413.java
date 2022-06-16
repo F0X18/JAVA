@@ -7,6 +7,8 @@ public class ejercicopag413 {
 		
 		String a="hola";
 		String b="habla";
+		int ultimoValorA=a.length()-1;
+		int ultimoValorB=b.length()-1;
 		String substringabc=" hola, abc anda por aqui";
 		
 		
@@ -23,11 +25,12 @@ public class ejercicopag413 {
 		
 		/*Ejercicio: escribe un programa que dado dos String compruebe si los dos primeros caracteres y 
 		los dos últimos son iguales.*/
-		if(a.charAt(0)==b.charAt(0) && (a.charAt(a.length()-1)==b.charAt(b.length()-1) {
-			System.out.println("son caracteres inicial y final  iguales");
+		if (a.charAt(0)==b.charAt(0) && a.charAt(ultimoValorA)==b.charAt(ultimoValorB)) {
+			System.out.println("El primero y el último"
+							+ " caracter son iguales");
 		} else {
-			System.out.println("no son caracteres inicial y final iguales");
-		}
+			System.out.println("El primero y el último"
+					+ " caracter son diferentes");
 		
 		
 		
@@ -74,6 +77,20 @@ public class ejercicopag413 {
 		
 		/*Ejercicio: escribe un programa que devuelva si un String es palíndromo (se escribe igual
 			hacia delante y hacia detrás). Ejemplo: "sometemos".*/
+		/*String pali= "arroz";
+		String pali2="";
+		String caracter;
+		int i=pali.length()-1;
+		for (int i, i>=0,i--);{
+			caracter=pali.charAt(i);
+			pali2= pali2.concat(charAt(i));
+		}
+		
+		if(pali==pali2) {
+			System.out.println("Es un palindromo");
+		}else {
+			System.out.println("No es un palindromo");
+		}
 		
 		
 		

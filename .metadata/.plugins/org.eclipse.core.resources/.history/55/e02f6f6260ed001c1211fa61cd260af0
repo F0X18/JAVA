@@ -1,0 +1,18 @@
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		StringBuilder strb1 = new StringBuilder("hola a todos");
+		StringBuilder strb2 = new StringBuilder("hola a todos");
+		// reemplaza desde el índice 5 al índice 6 (1 carácter) por la cadena de texto dd
+		strb1.replace(5, 6, "dd");
+		// hola dd todos
+		System.out.println(strb1);
+		// reemplaza desde el índice 5 al índice 22 (hasta el final del StringBuilder) por la cadena
+				de texto dd
+		strb2.replace(5, 22, "dd");
+		// hola dd
+		System.out.println(strb2);
+	}
+
+}

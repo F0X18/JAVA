@@ -1,0 +1,11 @@
+public class Prueba {
+	public static void Main(String[] args) {
+	
+		/*
+		Concatenación utilizando String
+		*/
+		long startTime = System.currentTimeMillis();
+
+	
+	}
+	

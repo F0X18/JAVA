@@ -4,7 +4,7 @@ public class MainString {
 
 	public static void main(String[] args) {
 		//mostrar caracteres
-		char f= 'f';
+		/*char f= 'f';
 		char u= 'u';
 		char l= 'l';
 		char s= 's';
@@ -58,7 +58,7 @@ public class MainString {
 		System.out.println(str2);
 		// convierte de char a String
 		String str3 = String.valueOf('a');
-		System.out.println(str3);
+		System.out.println(str3);*/
 	}
 
 }
