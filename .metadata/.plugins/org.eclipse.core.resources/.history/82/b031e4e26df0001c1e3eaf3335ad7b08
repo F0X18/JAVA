@@ -1,0 +1,11 @@
+package ExamenModulo3;
+
+public class Animales {
+
+	//atributos
+	protected int patas;
+	// metodos
+	public void comer() {}
+
+
+}

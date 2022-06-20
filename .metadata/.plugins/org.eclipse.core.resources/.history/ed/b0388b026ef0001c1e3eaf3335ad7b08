@@ -1,0 +1,5 @@
+package ExamenModulo3;
+
+public interface SeresVivos {
+
+}

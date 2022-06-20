@@ -35,9 +35,29 @@ public class ejerciciopag421 {
 		
 		/*Ejercicio: escribe un programa que convierta en mayúsculas la primera letra de cada
 		palabra de un StringBuilder.*/
-		StringBuilder strb8 = new StringBuilder("hola");
-		//char1 = stbr8.UpperCase.charAt(0);
-		strb8.setCharAt(0, 'H');
+		StringBuilder strb8 = new StringBuilder("Hola buenas, hoy se come");
+		String conv=strb8.toString();
+		int pos=0;
+		String espacio=" ";
+		String letra="";
+		
+		
+		
+		for(int i=0;i<conv.length();i++) {
+			letra=letra.valueOf(conv.charAt(i));
+			letra=letra.toUpperCase();
+			
+			if (letra.equals(espacio)) {
+				pos=i;
+				conv.charAt(i);
+				letra=letra.valueOf(conv.charAt(pos+1));
+	    		letra=letra.toUpperCase();
+				strb8.replace(i+1,+2,letra);		
+				} 
+				
+				
+	
+		}
 		System.out.println(strb8);
 
 		
@@ -51,3 +71,4 @@ public class ejerciciopag421 {
 	}
 
 }
+

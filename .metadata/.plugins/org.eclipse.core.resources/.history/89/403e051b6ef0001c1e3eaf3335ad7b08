@@ -1,0 +1,9 @@
+package ExamenModulo3;
+
+public interface SeresVivos {
+	//atributo
+	
+	//metodo
+	protected abstract void beber(){}
+
+}

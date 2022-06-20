@@ -1,0 +1,9 @@
+package ExamenModulo3;
+
+public interface SeresVivos {
+	//atributo
+	public int edad;
+	//metodo
+	public static void beber(){}
+
+}

@@ -1,0 +1,11 @@
+package com.array.info;
+
+public class Arrayinfo {
+
+	public static void main(String[] args) {
+		int b[] = new int[6];
+
+
+	}
+
+}

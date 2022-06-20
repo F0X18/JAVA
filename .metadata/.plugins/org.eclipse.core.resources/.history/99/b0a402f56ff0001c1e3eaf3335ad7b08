@@ -1,0 +1,14 @@
+package ExamenModulo3;
+
+public class MainExamen3 {
+
+	public static void main(String[] args) {
+		Animales Colibri= new Animales(0);
+		Animales Delfin= new Animales();
+		Animales Leopardo= new Animales();
+		
+		System.out.println(Colibri.getpatas());
+		
+	}
+
+}

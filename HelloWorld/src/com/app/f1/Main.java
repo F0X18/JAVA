@@ -3,11 +3,18 @@ package com.app.f1;
 public class Main {
 	public static void main(String[] args) {
 	
+		
+		
+		int a = 10, b=2,c=1;
+        // el valor de la variable puede mostrarse mediante System.out.println
+        System.out.println(a+b+c);
+        c=4;
+        System.out.printf("%d+%d+%d=%d",a+b+c).println();
 	
 	
 	}
 	
-	
+}
 	
 
 		

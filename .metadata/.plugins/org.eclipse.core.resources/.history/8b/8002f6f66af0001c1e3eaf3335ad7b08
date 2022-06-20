@@ -1,0 +1,18 @@
+package ExamenModulo3;
+public class ExamenModulo3 {
+
+	public static void main(String[] args) {
+		//ejercicio 1
+		System.out.println("Buenos días");
+		System.out.println("8*13");
+		int a=8,b=13;
+		System.out.println(a*b);
+		//ejercico 2
+		
+		
+		int c=1,d=2,e=3;
+		System.out.println(c+d+e);
+
+	}
+
+}
