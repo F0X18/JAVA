@@ -20,8 +20,9 @@ public class Conecta_Ventas {
 			System.out.println("creado resultset");
 			//paso 4
 			while(miResultSet.next()) {
-				System.out.println(miResultSet.getString("CÓDIGOARTÍCULO") + " " + miResultSet.getString("NOMBREARTÍCULO") +" "+ miResultSet.getDouble("PRECIO")*1.21+" "+"leuros");
-				System.out.println(miResultSet.getString("SECCIÓN") + " " + miResultSet.getString("IMPORTADO") +" "+ miResultSet.getString("PAÍSDEORIGEN" ));
+				//System.out.println(miResultSet.getString("CÓDIGOARTÍCULO") + " " + miResultSet.getString("NOMBREARTÍCULO") +" "+ miResultSet.getDouble("PRECIO")*1.21+" "+"leuros");
+				//System.out.println(miResultSet.getString("SECCIÓN") + " " + miResultSet.getString("IMPORTADO") +" "+ miResultSet.getString("PAÍSDEORIGEN" ));
+				System.out.println(miResultSet.getString("NOMBREARTÍCULO") + " " + miResultSet.getString("PRECIO") +" "+"leuros");
 		}
 			
 		}
