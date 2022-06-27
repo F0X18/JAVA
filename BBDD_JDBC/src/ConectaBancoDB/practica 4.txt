@@ -1,0 +1,8 @@
+practica 4
+
+https://github.com/F0X18/JAVA/tree/main/BBDD_JDBC/src/ConectaBancoDB
+
+hay 2 comandos que no me funcionan correctamente en algunos casos, con el INSERT INTO.
+
+añadido el esquema del banco y el sql de banco en github.
+
