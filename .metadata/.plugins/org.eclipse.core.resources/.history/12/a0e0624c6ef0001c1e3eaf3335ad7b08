@@ -1,9 +1,0 @@
-package ExamenModulo3;
-
-public interface SeresVivos {
-	//atributo
-	
-	//metodo
-	public static void beber(){}
-
-}
