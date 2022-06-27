@@ -19,7 +19,7 @@ public class Conecta_banco_cliente_UPDATE {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero la actualizacion de un cliente 
-			String actualizacionSQL= "UPDATE clientes SET usuario=adrian where `id`=\"2\"";
+			String actualizacionSQL= "UPDATE clientes SET usuario='adrian' where id=3";
 			//paso 4 inserto los datos a actulizar
 			miStatement.executeUpdate(actualizacionSQL);
 			System.out.println("Datos actualizados correctamente");

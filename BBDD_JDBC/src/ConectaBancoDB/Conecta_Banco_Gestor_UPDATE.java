@@ -19,7 +19,7 @@ public class Conecta_Banco_Gestor_UPDATE {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero la actualizacion de un gestor 
-			String actualizacionSQL= "UPDATE gestor SET usuario=adrian where usuario=3";
+			String actualizacionSQL= "UPDATE gestor SET gestor=adrian where id=3";
 			//paso 4 inserto los datos a actulizar
 			miStatement.executeUpdate(actualizacionSQL);
 			System.out.println("Datos actualizados correctamente");

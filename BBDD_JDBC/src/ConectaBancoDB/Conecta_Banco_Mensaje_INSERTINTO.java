@@ -18,7 +18,8 @@ public class Conecta_Banco_Mensaje_INSERTINTO {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero un nuevo mensaje con atributos 
-			String instruccionSQL= "INSERT INTO mensaje (id, texto) VALUES ('2', 'Chanchitofeliz')";
+			String instruccionSQL= "INSERT INTO `mensaje`(`id`, `id_origen`, `id_destino`, `texto`, `fecha`) VALUES ('2','1','1','hola','')";
+
 			//paso 4 inserto los datos del nuevo mensaje en la DB
 			miStatement.executeUpdate(instruccionSQL);
 			System.out.println("Datos insertados correctamente");

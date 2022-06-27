@@ -18,7 +18,7 @@ public class Conecta_Banco_cliente_INSERTINTO {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero un nuevo cliente con atributos 
-			String instruccion1SQL= "INSERT INTO cliente (id, usuario, password) VALUES ('10','Chanchito','Chanchitofeliz')";
+			String instruccion1SQL= "INSERT INTO cliente (usuario) VALUES ('Chanchito')";
 			//paso 4 inserto los datos del nuevo cliente en la DB
 			miStatement.executeUpdate(instruccion1SQL);
 			System.out.println("Datos insertados correctamente");

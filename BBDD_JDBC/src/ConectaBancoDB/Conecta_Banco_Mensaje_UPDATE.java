@@ -19,7 +19,7 @@ public class Conecta_Banco_Mensaje_UPDATE {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero la actualizacion de un mensaje 
-			String actualizacionSQL= "UPDATE mensaje SET texto=el pago sera efectuado en 2 dias habiles"
+			String actualizacionSQL= "UPDATE mensaje SET texto='el pago sera efectuado en 2 dias habiles'"
 											+ " where id=2";
 			//paso 4 inserto los datos a actulizar
 			miStatement.executeUpdate(actualizacionSQL);

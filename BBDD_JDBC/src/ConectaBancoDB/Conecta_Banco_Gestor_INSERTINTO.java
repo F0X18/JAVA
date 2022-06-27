@@ -18,7 +18,8 @@ public class Conecta_Banco_Gestor_INSERTINTO {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero un nuevo gestor con atributos 
-			String instruccionSQL= "INSERT INTO gestor (id, password, correo) VALUES ('10', 'Chanchito', 'chacho@correo.com')";
+			String instruccionSQL= "INSERT INTO gestor (usuario, password, correo) VALUES ('gestor6','gestor6', 'gestor6@correo.com')";
+
 			//paso 4 inserto los datos del nuevo gestor en la DB
 			miStatement.executeUpdate(instruccionSQL);
 			System.out.println("Datos insertados correctamente");

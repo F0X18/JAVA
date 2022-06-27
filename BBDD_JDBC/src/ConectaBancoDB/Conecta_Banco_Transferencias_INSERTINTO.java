@@ -17,8 +17,8 @@ public class Conecta_Banco_Transferencias_INSERTINTO {
 			Statement miStatement=conexionbanco.createStatement();
 			System.out.println("creado statement");
 			//paso 3 genero un nuevo transferencia con atributos 
-			String instruccionSQL= "INSERT INTO transferencia (id, importe, concepto,) VALUES "
-					+ "('10', '2000', 'ingresito de pobre')";
+			String instruccionSQL= "INSERT INTO `transferencia` (`id`,`id_ordenante`, `id_beneficiario`) VALUES ('', '2','1')";
+			//System.out.println(instruccionSQL);	
 			//paso 4 inserto los datos del nuevo transferencia en la DB
 			miStatement.executeUpdate(instruccionSQL);
 			System.out.println("Datos insertados correctamente");
