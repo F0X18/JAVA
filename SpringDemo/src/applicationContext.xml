@@ -18,28 +18,37 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 com.ejemplo -->
 
 <!-- servicio añadido -->
-<bean id="miExperienciaServicio" class="Com.Ejemplo.PocaExperienciaServicio">
+<bean id="miExperienciaServicio" class="com.ejemplo.PocaExperienciaServicio">
 </bean>
-<bean id="mientrenadorFutbol1" class="Com.Ejemplo.EntrenadorFutbol">
+<bean id="mientrenadorFutbol1" class="com.ejemplo.EntrenadorFutbol">
 <!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el
 constructor) -->
 <constructor-arg ref="miExperienciaServicio"></constructor-arg>
 </bean>
  <!--<context:component-scan base-package="com.ejemplo"/>-->
  
- <bean id="miExperienciaServicio1" class="Com.Ejemplo.PocaExperienciaServicio">
+ <bean id="miExperienciaServicio1" class="com.ejemplo.PocaExperienciaServicio">
 </bean>
-<bean id="mientrenadorBaloncesto" class="Com.Ejemplo.EntrenadorBaloncesto">
+<bean id="mientrenadorBaloncesto" class="com.ejemplo.EntrenadorBaloncesto">
 <!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el
 constructor) -->
 <constructor-arg ref="miExperienciaServicio"></constructor-arg>
 </bean>
 
-<bean id="miExperienciaServicio2" class="Com.Ejemplo.PocaExperienciaServicio">
+<bean id="miExperienciaServicio2" class="com.ejemplo.PocaExperienciaServicio">
 </bean>
-<bean id="mientrenadorTenis" class="Com.Ejemplo.EntrenadorTenis">
+<bean id="mientrenadorTenis" class="com.ejemplo.EntrenadorTenis">
 <!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el
 constructor) -->
 <constructor-arg ref="miExperienciaServicio"></constructor-arg>
 </bean>
+
+
+
+<bean id="mientrenadorJockey" class="com.ejemplo.EntrenadorJockey">
+		<!-- se establece qué bean se inyecta (miExperienciaServicio) 
+		y sobre qué método setter (setExperienciaServicio) -->
+		<property name="experienciaServicio" ref="miExperienciaServicio" />
+</bean>
+
 </beans> 
