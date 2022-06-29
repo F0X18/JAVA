@@ -33,18 +33,27 @@ public class MainSpring {
 		Entrenador entrenador3 = context.getBean("mientrenadorFutbol1", Entrenador.class);
 		System.out.println(entrenador3.getExperiencia());
 		System.out.println(entrenador3.getEntrenamiento());
+		System.out.println(entrenador3.getEmail());
+		System.out.println(entrenador3.getEquipo());
 		
 		Entrenador entrenador4 = context.getBean("mientrenadorBaloncesto", Entrenador.class);
 		System.out.println(entrenador4.getExperiencia());
 		System.out.println(entrenador4.getEntrenamiento());
+		System.out.println(entrenador4.getEmail());
+		System.out.println(entrenador4.getEquipo());
 		
 		Entrenador entrenador5 = context.getBean("mientrenadorTenis", Entrenador.class);
 		System.out.println(entrenador5.getExperiencia());
 		System.out.println(entrenador5.getEntrenamiento());
+		System.out.println(entrenador5.getEmail());
+		System.out.println(entrenador5.getEquipo());
 		
 		Entrenador entrenador6 = context.getBean("mientrenadorJockey", Entrenador.class);
 		System.out.println(entrenador6.getExperiencia());
 		System.out.println(entrenador6.getEntrenamiento());
+		System.out.println(entrenador6.getEmail());
+		System.out.println(entrenador6.getEquipo());
+		
 		// cierra el contexto
 		context.close();
 	}

@@ -6,6 +6,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context.xsd">
+<context:property-placeholder location="classpath:datos.properties"/>
 <!-- a partir de aquí se definen los beans -->
 <!-- bean mientrenador asociado a la clase EntrenadorBaloncesto -->
 <!-- <bean id="mientrenadorBaloncesto" class="Com.Ejemplo.EntrenadorBaloncesto">
@@ -24,6 +25,8 @@ com.ejemplo -->
 <!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el
 constructor) -->
 <constructor-arg ref="miExperienciaServicio"></constructor-arg>
+<property name="email" value="correodeprueba@mail.com" />
+<property name="equipo" value="Mean Machine" />
 </bean>
  <!--<context:component-scan base-package="com.ejemplo"/>-->
  
@@ -33,6 +36,8 @@ constructor) -->
 <!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el
 constructor) -->
 <constructor-arg ref="miExperienciaServicio"></constructor-arg>
+<property name="email" value="${email}" />
+<property name="equipo" value="${equipo}" />
 </bean>
 
 <bean id="miExperienciaServicio2" class="com.ejemplo.PocaExperienciaServicio">
@@ -41,6 +46,8 @@ constructor) -->
 <!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el
 constructor) -->
 <constructor-arg ref="miExperienciaServicio"></constructor-arg>
+<property name="email" value="correodeprueba@mail.com" />
+<property name="equipo" value="Devil Machine" />
 </bean>
 
 
@@ -49,6 +56,11 @@ constructor) -->
 		<!-- se establece qué bean se inyecta (miExperienciaServicio) 
 		y sobre qué método setter (setExperienciaServicio) -->
 		<property name="experienciaServicio" ref="miExperienciaServicio" />
+		<property name="email" value="correodeprueba@mail.com" />
+		<property name="equipo" value="Star Machine" />
 </bean>
+
+
+
 
 </beans> 

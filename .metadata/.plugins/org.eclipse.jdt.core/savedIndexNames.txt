@@ -8,7 +8,6 @@ INDEX VERSION 1.131+C:\Users\Adrian\Desktop\A\JAVA\JAVA\.metadata\.plugins\org.e
 803382473.index
 372636094.index
 1818089356.index
-86046143.index
 3943694659.index
 2985187169.index
 1022371381.index
