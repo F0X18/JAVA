@@ -1,8 +1,9 @@
 package com.ejemplo;
 
-import org.springframework.stereotype.Component;
 
-@Component("mientrenadorTenis")
+
+
+
 public class EntrenadorTenis implements Entrenador {
 	
 protected String email;
@@ -23,6 +24,7 @@ protected String email;
 		System.out.println("Inyección de un literal en un método setter: " + equipo);
 		this.equipo = equipo;
 		}
+		
 
 	private ExperienciaServicio experienciaServicio;
 	// constructor con el servicio inyectado

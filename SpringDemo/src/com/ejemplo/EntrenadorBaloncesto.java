@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component("mientrenadorBaloncesto")
 public class EntrenadorBaloncesto implements Entrenador {
 	
-protected String email;
+	protected String email;
 	
 	protected String equipo; 
 	
