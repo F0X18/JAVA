@@ -40,11 +40,26 @@ public class EntrenadorFutbol implements Entrenador {
 	@Override
 	public int getExperiencia() {
 	return experienciaServicio.getExperiencia();
+	}
+	
+	@Override
+	public void init() {
+	System.out.println("Inicialización Futbol");
+	}
+	// este método se invocará cuando se cierre el contexto
+	@Override
+	public void destroy() {
+	System.out.println("Destrucción Futbol");
+	}
 	
 	
 	}
 	
-		
-	}
+	
+
+	
+	
+
+
 
 

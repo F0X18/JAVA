@@ -11,4 +11,8 @@ public interface Entrenador {
 	//metodo equipo
 	public String getEquipo();
 	public void setEquipo(String equipo);
+	
+	//metodo init y destroy
+	public void init();
+	public void destroy();
 }

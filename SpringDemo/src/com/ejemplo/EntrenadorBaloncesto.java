@@ -42,6 +42,18 @@ public class EntrenadorBaloncesto implements Entrenador {
 		
 		return experienciaServicio.getExperiencia();
 	}
-	
 
+	@PostConstruct
+	public void init() {
+		
+	System.out.println("Inicialización Basquet");
+	
+	}
+	@PreDestroy
+	public void destroy() {
+	
+		System.out.println("Destrucción Basquet");
+	
+	}
 }
+
