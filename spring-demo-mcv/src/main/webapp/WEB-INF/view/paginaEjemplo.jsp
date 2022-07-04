@@ -4,14 +4,19 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Primer ejemplo de MVC con Spring</title>
+<title>Primer ejemplo de MVC con Spring desde Eclipse</title>
 <style>
         body{background:rgb(25, 255, 17) ;}
     </style>
 </head>
 <body>
+		
 
-<h1 style="color:#ff0000;">Primer ejemplo de MVC con Spring</h1>
+        
+
+<h1 style="color:#ff0000;">Pagina principal del proyecto de MVC con Spring</h1>
+<a href="http://localhost:8080/spring-demo-mcv/mostrarFormulario">formulario</a>
+
 <p style="color:#ff11c7;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
 when an unknown printer took a galley of type and scrambled it to make a type 
@@ -29,6 +34,7 @@ electronic typesetting, remaining essentially unchanged. It was popularised in
 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
 and more recently with desktop publishing software like Aldus PageMaker including 
 versions of Lorem Ipsum.</p>
+
 
 </body>
 </html>
