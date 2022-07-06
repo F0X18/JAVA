@@ -13,7 +13,9 @@
 
 	<!--  paquete a escanear en busca de componentes -->
 	<context:component-scan base-package="com.demo.mvc" />
-
+	<!-- referencia a los archivos estáticos -->
+	<mvc:resources mapping="/resources/**" location="/resources/"></mvc:resources>
+	<!-- soporte para la conversión, formateo y validación en Spring -->
 	<mvc:annotation-driven/>
 
 	<!-- Configuracion del view resolver-->

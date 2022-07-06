@@ -7,6 +7,11 @@
 	<display-name>mvc ejemplo</display-name>
 
 	<absolute-ordering />
+		<error-page>
+		<location>/errors</location>
+	</error-page>
+<!-- los errores se redirigirán a esta URL -->
+		
 
 	
 
