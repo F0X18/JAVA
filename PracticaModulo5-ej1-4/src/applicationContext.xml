@@ -15,6 +15,7 @@
 			init-method="init" destroy-method="destroy">
 		<!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el constructor) -->
 		<constructor-arg ref="miExperienciaServicio"></constructor-arg>
+		
 		</bean>
 		<bean id="miProfesorMates" scope="prototype" class="com.ejemplo.ProfesorMates" 
 			init-method="init" destroy-method="destroy">

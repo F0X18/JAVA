@@ -5,6 +5,9 @@ public interface Profesor {
 	
 	public abstract int getExperiencia();
 	
+	public String getEmail();
+	public void setEmail(String email);
+	
 	public void init();
 	public void destroy();
 }

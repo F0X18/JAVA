@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ProfesorMates implements Profesor {
 	
+	
 	private ExperienciaServicio experienciaServicio;
 	// constructor con el servicio inyectado
 	public ProfesorMates(ExperienciaServicio experienciaServicio) {
@@ -27,4 +28,5 @@ public class ProfesorMates implements Profesor {
 		System.out.println("Finalización mates");
 		
 	}
+	
 }
