@@ -36,4 +36,14 @@ protected String email;
 		System.out.println("Inyección en un método setter");
 		this.experienciaServicio = experienciaServicio;
 	}
+	@Override
+	public void init() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void destroy() {
+		// TODO Auto-generated method stub
+		
+	}
 }
