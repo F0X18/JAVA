@@ -4,6 +4,17 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ProfesorInformatica implements Profesor {
+	
+	protected String email;
+	@Override
+	public String getEmail() {
+		return email;
+	}
+	@Override
+	public void setEmail(String email) {
+		System.out.println("Inyección de un valor literal en un método setter: " + email);
+		this.email=email;
+	}
 	//Contructor por defecto
 		public ProfesorInformatica() {
 			System.out.println("Contructor por defecto");

@@ -5,6 +5,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class ProfesorOrientacion implements Profesor {
 	
+	protected String email;
+	@Override
+	public String getEmail() {
+		return email;
+	}
+	@Override
+	public void setEmail(String email) {
+		System.out.println("Inyección de un valor literal en un método setter: " + email);
+		this.email=email;
+	}
 	private ExperienciaServicio experienciaServicio;
 	// constructor con el servicio inyectado
 	public ProfesorOrientacion(ExperienciaServicio experienciaServicio) {

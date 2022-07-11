@@ -15,17 +15,19 @@
 			init-method="init" destroy-method="destroy">
 		<!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el constructor) -->
 		<constructor-arg ref="miExperienciaServicio"></constructor-arg>
-		
+		<property name="email" value="ProfesorInformatica@mail.com"></property>
 		</bean>
 		<bean id="miProfesorMates" scope="prototype" class="com.ejemplo.ProfesorMates" 
 			init-method="init" destroy-method="destroy">
 		<!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el constructor) -->
 		<constructor-arg ref="miExperienciaServicio"></constructor-arg>
+		<property name="email" value="${email}" />
 		</bean>
 		<bean id="miProfesorOrientacion" scope="prototype" class="com.ejemplo.ProfesorOrientacion" 
 			init-method="init" destroy-method="destroy">
 		<!-- se establece qué bean se inyecta (miExperienciaServicio) y dónde (en el constructor) -->
 		<property name="experienciaServicio" ref="miExperienciaServicio" />
+		<property name="email" value="ProfesorOrientacion@mail.com"></property>
 		</bean>
 
 	
