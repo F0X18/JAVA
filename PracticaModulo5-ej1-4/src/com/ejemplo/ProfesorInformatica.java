@@ -3,7 +3,7 @@ package com.ejemplo;
 import org.springframework.stereotype.Component;
 
 @Component
-public abstract class ProfesorInformatica implements Profesor {
+public class ProfesorInformatica implements Profesor {
 	//Contructor por defecto
 		public ProfesorInformatica() {
 			System.out.println("Contructor por defecto");

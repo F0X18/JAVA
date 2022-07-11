@@ -3,7 +3,7 @@ package com.ejemplo;
 import org.springframework.stereotype.Component;
 
 @Component
-public abstract class ProfesorOrientacion implements Profesor {
+public class ProfesorOrientacion implements Profesor {
 	
 	private ExperienciaServicio experienciaServicio;
 	// constructor con el servicio inyectado
@@ -14,6 +14,12 @@ public abstract class ProfesorOrientacion implements Profesor {
 	public int getExperiencia() {
 		return experienciaServicio.getExperiencia();
 	}
+	// inyección del servicio en un método setter
+		public void setExperienciaServicio(ExperienciaServicio 
+											experienciaServicio) {
+			System.out.println("Inyección en un método setter");
+			this.experienciaServicio = experienciaServicio;
+		}
 	public String getTarea() {
 	return "Praticas con Curriculum Vitae";
 

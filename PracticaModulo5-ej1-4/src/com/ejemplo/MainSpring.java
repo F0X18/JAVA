@@ -17,6 +17,14 @@ public class MainSpring {
 		System.out.println(Profesor.getTarea());
 		System.out.println(Profesor.getExperiencia());
 		
+		Profesor Profesor1 = context.getBean("miProfesorMates",Profesor.class);
+		System.out.println(Profesor1.getTarea());
+		System.out.println(Profesor1.getExperiencia());
+		
+		Profesor Profesor2 = context.getBean("miProfesorOrientacion",Profesor.class);
+		System.out.println(Profesor2.getTarea());
+		System.out.println(Profesor2.getExperiencia());
+		
 		// cierra el contexto
 		context.close();
 	}

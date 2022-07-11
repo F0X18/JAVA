@@ -16,6 +16,7 @@ import org.springframework.web.server.ResponseStatusException;
 @Controller
 public class Controlador {
 	
+	
 	@RequestMapping("/mostrarFormulario3")
 	// se accede al valor de la cabecera accept-language y se almacena en la variable
 	//acceptLanguage

@@ -3,7 +3,7 @@ package com.ejemplo;
 import org.springframework.stereotype.Component;
 
 @Component
-public abstract class ProfesorMates implements Profesor {
+public class ProfesorMates implements Profesor {
 	
 	private ExperienciaServicio experienciaServicio;
 	// constructor con el servicio inyectado

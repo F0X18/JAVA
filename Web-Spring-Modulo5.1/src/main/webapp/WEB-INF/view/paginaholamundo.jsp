@@ -21,7 +21,8 @@
 
 <h1>Hola Mundo</h1>
 <a href="http://localhost:8080/spring-demo-mcv/mostrarFormulario">formulario</a>
-<p style="color:#ff11c7;">En la pagina siguiente encontras el formulario</p>
+<p>En la pagina siguiente encontras el formulario</p>
+<img src="${pageContext.request.contextPath}/resources/IMG/mar.jpg" />
 
 
 
