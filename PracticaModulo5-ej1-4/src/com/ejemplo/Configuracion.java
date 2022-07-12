@@ -21,7 +21,5 @@ public class Configuracion {
 	return experienciaServicio;
 	}
 	
-	public int getExperienciaEntrenador() {
-	return 2;
-	}
+	
 }
