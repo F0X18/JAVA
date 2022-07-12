@@ -1,0 +1,15 @@
+Anotaciones de Spring
+
+
+@Component        ---- crear bean
+@Autowiring       ---- vincular bean
+@Override         ---- sobreescribir un valor
+@Qualifier        ---- selecionar entrenador espefico a inyectar
+@Value	          ---- para insertar un valor a traves de archivo de data.propierties
+@Scope	          ---- por defecto single  //prototipe
+@PostConstruct    ---- metodo init
+@PreDestroy       ---- metodo destroy
+@Configuration    ---- Equivalente a Archivo XML
+@ComponentScan()  ---- escanea todos los components
+@bean             ---- Geneara un bean
+@PropertySource   ---- cargar valores de un archivo externo
