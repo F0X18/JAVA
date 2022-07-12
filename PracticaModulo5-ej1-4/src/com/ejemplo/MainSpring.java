@@ -28,6 +28,11 @@ public class MainSpring {
 		System.out.println(Profesor2.getExperiencia());
 		System.out.println(Profesor2.getEmail());
 		
+		Profesor Profesor3 = context.getBean("ProfesorMecanica",Profesor.class);
+		System.out.println(Profesor3.getTarea());
+		System.out.println(Profesor3.getExperiencia());
+		System.out.println(Profesor3.getEmail());
+		
 		// cierra el contexto
 		context.close();
 	}
